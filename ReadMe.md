@@ -88,11 +88,11 @@ Each module in the `src` directory handles a specific aspect of the application:
 - `models/`: Contains modules for managing seasonal flavors, ingredient inventory, customer suggestions, and allergens.
 - `app.py`: The main application logic and user interface.
 
-### ORM Abstraction Implementation (1 Point)
+### ORM Abstraction Implementation 
 
 The database operations are implemented using raw SQL queries. However, they are abstracted through Python functions, which provide a level of abstraction similar to an ORM. Future versions can replace raw SQL queries with an actual ORM like SQLAlchemy for better abstraction and functionality.
 
-### Docker File (1 Point)
+### Docker File 
 
 The provided `Dockerfile` builds a Docker image for the application and runs it in a container. Instructions to build and run the Docker container are included in the README file.
 
